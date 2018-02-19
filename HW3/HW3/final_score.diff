@@ -1,0 +1,103 @@
+Total Score: 92.0
+
+####### Find Min Max ########
+--- reference
++++ student
+@@ -12,7 +12,7 @@
+ Max: 89
+ Case 4:
+ Min: -101
+-Max: -98
++Max: 0
+ Case 5:
+ Min: 1
+ Max: 1
+@@ -24,7 +24,7 @@
+ Max: 2147483647
+ Case 8:
+ Min: -2147483648
+-Max: -2147483648
++Max: 0
+ Case 9:
+ Min: -2147483648
+ Max: 2147483647
+
+Cases Failed: 2
+Total Cases: 13
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Grade: 8
+################################
+
+####### Frame a Name ########
+
+Cases Failed: 0
+Total Cases: 6
+
+Warnings: 2
+frame_a_name.cpp(18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+frame_a_name.cpp(8): warning C4101: 'num': unreferenced local variable
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Grade: 9
+################################
+
+####### Password Strength Calculator ########
+
+Cases Failed: 0
+Total Cases: 13
+
+Warnings: 3
+password_strength_calculator.cpp(10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+password_strength_calculator.cpp(46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+password_strength_calculator.cpp(51): warning C4101: 'n': unreferenced local variable
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Comment: warning in the code
+Grade: 9
+################################
+
+####### Reverse a Number ########
+--- reference
++++ student
+@@ -15,7 +15,7 @@
+ Case 7:
+ 5
+ Case 8:
+-Invalid input
++0
+ Case 9:
+ 808
+ Case 10:
+
+Cases Failed: 1
+Total Cases: 13
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Grade: 10
+################################
+

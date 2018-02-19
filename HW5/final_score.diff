@@ -1,0 +1,77 @@
+Total Score: -1
+
+####### contact_manager ########
+--- reference
++++ student
+@@ -1,28 +0,0 @@
+-> no contacts
+-> first name: last name: phone number: e-mail: > Lovelace, Ada
+-> first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > Hopper, Grace
+-Lamport, Leslie
+-Lovelace, Ada
+-Ritchie, Dennis
+-> first name: last name: removed Dennis Ritchie
+-> first name: last name: contact not found
+-> Hopper, Grace
+-Lamport, Leslie
+-Lovelace, Ada
+-> first name: last name: contact not found
+-> first name: last name: Name: Leslie Lamport
+-Phone Number: 000912931
+-E-mail: leslie.lamport
+-> first name: last name: phone number: e-mail: > Hopper, Grace
+-Lamport, Leslie
+-Lovelace, Ada
+-Ritchie, Dennis
+-> first name: last name: Name: Dennis Ritchie
+-Phone Number: 555898123
+-E-mail: dennis@email2
+-> first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > Hopper, Grace
+-Lamport, Leslie
+-Lovelace, Ada
+-Ritchie, Dennis
+-> first name: last name: removed Dennis Ritchie
+->
+
+Cases Failed: 1
+Total Cases: 0
+
+Warnings: 3
+contacts_main.cpp(7): warning C4100: 'c': unreferenced formal parameter
+contacts_main.cpp(18): warning C4100: 'last': unreferenced formal parameter
+contacts_main.cpp(18): warning C4100: 'first': unreferenced formal parameter
+
+Compilation Errors: 10
+contacts_main.cpp(54): error C2064: term does not evaluate to a function taking 4 arguments
+contacts_main.cpp(71): error C2275: 'std::string': illegal use of this type as an expression
+contacts_main.cpp(71): error C2143: syntax error: missing ';' before 'const'
+contacts_main.cpp(71): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+contacts_main.cpp(71): error C2440: 'initializing': cannot convert from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'int'
+contacts_main.cpp(72): error C2663: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::find': 2 overloads have no legal conversion for 'this' pointer
+contacts_main.cpp(74): error C3536: 'it': cannot be used before it is initialized
+contacts_main.cpp(74): error C2678: binary '==': no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
+contacts_main.cpp(78): error C2227: left of '->second' must point to class/struct/union/generic type
+contacts_main.cpp(78): error C2530: 'c': references must be initialized
+
+Linker Errors: 0
+
+Runtime Results:
+Process Status: Other Exception
+
+################################
+
+####### matrix ########
+
+Cases Failed: 0
+Total Cases: 2
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+################################
+

@@ -1,0 +1,31 @@
+> no contacts
+> first name: last name: phone number: e-mail: > Lovelace, Ada
+> first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > Hopper, Grace
+Lamport, Leslie
+Lovelace, Ada
+Ritchie, Dennis
+> first name: last name: removed Dennis Ritchie
+> first name: last name: contact not found
+> Hopper, Grace
+Lamport, Leslie
+Lovelace, Ada
+> first name: last name: contact not found
+> first name: last name: Name: Leslie Lamport
+Phone Number: 000912931
+E-mail: leslie.lamport
+> first name: last name: phone number: e-mail: > Hopper, Grace
+Lamport, Leslie
+Lovelace, Ada
+Ritchie, Dennis
+> first name: last name: Name: Dennis Ritchie
+Phone Number: 555898123
+E-mail: dennis@email2
+> first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > first name: last name: phone number: e-mail: > Hopper, Grace
+Jackson, Bob
+Jackson, Jack
+Kernighan, Brian
+Lamport, Leslie
+Lovelace, Ada
+Ritchie, Bob
+Ritchie, Dennis
+> 

@@ -1,0 +1,92 @@
+Total Score: 90.0
+
+####### encryption ########
+
+Cases Failed: 0
+Total Cases: 10
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Grade: 10
+################################
+
+####### label_generator ########
+
+Cases Failed: 0
+Total Cases: 5
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Grade: 10
+################################
+
+####### matrix_vector ########
+
+Cases Failed: 0
+Total Cases: 8
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process Status: Timed Out
+Comment: try to reuse the code you already define to finish complex task like multiply of two matrixs
+Grade: 9
+################################
+
+####### parse_int ########
+--- reference
++++ student
+@@ -11,7 +11,7 @@
+ Case 5:
+ Parsing failed
+ Case 6:
+-Parsing failed
++1024
+ Case 7:
+ Parsing failed
+ Case 8:
+@@ -23,10 +23,6 @@
+ Case 11:
+ -2147483648
+ Case 12:
+-Parsing failed
++-2147483648
+ Case 13:
+-Parsing failed
+-Case 14:
+-Parsing failed
+-Case 15:
+-Parsing failed
++2147483647
+
+Cases Failed: 5
+Total Cases: 16
+
+Warnings: 0
+
+Compilation Errors: 0
+
+Linker Errors: 0
+
+Runtime Results:
+Process ran successfully
+Comment: miss {} in the if statement and globle variable is unnecessary
+Grade: 8
+################################
+

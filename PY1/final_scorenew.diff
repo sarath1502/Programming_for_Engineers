@@ -1,0 +1,57 @@
+Total Score: 88.0
+
+####### find_min_max ########
+--- reference
++++ student
+@@ -12,19 +12,19 @@
+ Max: 89
+ Case 4:
+ Min: -101
+-Max: -98
++Max: 0
+ Case 5:
+-Min: 1
++Min: 0
+ Max: 1
+ Case 6:
+ Min: -8
+ Max: 9
+ Case 7:
+-Min: 2147483647
++Min: 0
+ Max: 2147483647
+ Case 8:
+ Min: -2147483648
+-Max: -2147483648
++Max: 0
+ Case 9:
+ Min: -2147483648
+ Max: 2147483647
+
+Cases Failed: 4
+Total Cases: 13
+Comment: init. min,max=0 will fail some case. please check c++ solution in this problem about how to do it correctly.
+Grade: 6
+################################
+
+####### flip_flop ########
+
+Cases Failed: 0
+Total Cases: 7
+Grade: 10
+################################
+
+####### leibniz ########
+
+Cases Failed: 0
+Total Cases: 7
+Grade: 10
+################################
+
+####### testing_cases ########
+
+Cases Failed: 0
+Total Cases: 8
+Grade: 10
+################################
+
